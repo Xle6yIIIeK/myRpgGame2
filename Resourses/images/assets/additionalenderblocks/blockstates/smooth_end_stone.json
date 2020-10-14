@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "normal": [
+		{ "model": "additionalenderblocks:smooth_end_stone" },
+		{ "model": "additionalenderblocks:smooth_end_stone_1" },
+		{ "model": "additionalenderblocks:smooth_end_stone_2" }
+		]
+    }
+}

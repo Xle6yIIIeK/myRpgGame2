@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{c5d87cef-07f7-48bc-83a8-f4c9333b3e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entitys">
+      <UniqueIdentifier>{6c205e2d-5409-4d4a-8352-4102d18769ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{62ec1fe2-9f54-46a7-829a-45a1cdf67523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0LD DATA">
+      <UniqueIdentifier>{44617e11-c686-4e92-94f2-aa3f10270376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{3c626eb7-6f45-44a8-9e55-c8a48251678d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapCore">
+      <UniqueIdentifier>{0f7c7938-6ba6-4d54-9895-aeaecb566b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapCore\maps">
+      <UniqueIdentifier>{71ea6654-9a3b-48d3-91f2-2b269dea3d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\CoreComponent">
+      <UniqueIdentifier>{94e9c39f-14d6-4102-97dd-21f77c1a8fcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\GameMenu">
+      <UniqueIdentifier>{1c92706f-37a1-46c5-bed0-51a35c96f8e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\CoreComponent\Core Element">
+      <UniqueIdentifier>{8bd57eb2-03f7-4535-a43e-56c3a65d2232}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CORE.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityClass.cpp">
+      <Filter>Entitys</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuClass.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateClass.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateClass.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerClass.cpp">
+      <Filter>Entitys</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementComponents.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatioComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorStateClass.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="HitBoxComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingStateClass.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting.cpp">
+      <Filter>Core\CoreComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="NetCore.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributeComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="old sys.cpp">
+      <Filter>0LD DATA</Filter>
+    </ClCompile>
+    <ClCompile Include="cppdata.cpp">
+      <Filter>0LD DATA</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenuClass.cpp">
+      <Filter>States\GameMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSys.cpp">
+      <Filter>Core\CoreComponent\Core Element</Filter>
+    </ClCompile>
+    <ClCompile Include="Tabs.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>MapCore</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>MapCore</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CORE.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityClass.h">
+      <Filter>Entitys</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuClass.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateClass.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="StateClass.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerClass.h">
+      <Filter>Entitys</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementComponents.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatioComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorStateClass.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="HitBoxComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingStateClass.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting.h">
+      <Filter>Core\CoreComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="NetCore.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributeComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenuClass.h">
+      <Filter>States\GameMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSys.h">
+      <Filter>Core\CoreComponent\Core Element</Filter>
+    </ClInclude>
+    <ClInclude Include="Tabs.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>MapCore</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>MapCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturesPath.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config\setting.ini">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Resourses\maps\Level1.tmx">
+      <Filter>MapCore\maps</Filter>
+    </None>
+    <None Include="Resourses\maps\Level2.tmx">
+      <Filter>MapCore\maps</Filter>
+    </None>
+    <None Include="Resourses\maps\map.tmx">
+      <Filter>MapCore\maps</Filter>
+    </None>
+    <None Include="Resourses\maps\qq.tmx">
+      <Filter>MapCore\maps</Filter>
+    </None>
+    <None Include="Resourses\maps\testnewmap.tmx">
+      <Filter>MapCore\maps</Filter>
+    </None>
+    <None Include="Resourses\maps\basic.tmx">
+      <Filter>MapCore\maps</Filter>
+    </None>
+    <None Include="Config\supportKeys.ini">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Config\gameKeys.ini">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Save.nvs">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

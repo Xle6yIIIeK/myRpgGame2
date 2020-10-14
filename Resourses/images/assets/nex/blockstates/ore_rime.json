@@ -1,0 +1,10 @@
+{
+    "forge_marker": 1,
+    "variants": {
+        "normal": [
+            { "model": "nex:block_ore_rime" },
+            { "model": "nex:block_ore_rime_1" },
+            { "model": "nex:block_ore_rime_2" }
+        ]
+    }
+}

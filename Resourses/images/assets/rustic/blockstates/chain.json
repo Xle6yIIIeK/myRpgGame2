@@ -1,0 +1,15 @@
+{ 
+	"forge_marker": 1, 
+	"defaults": {}, 
+	"variants": { 
+		"axis": { 
+			"y": { "submodel": { "chain": { "model": "rustic:chain" } } }, 
+			"z": { "submodel": { "chain": { "model": "rustic:chain_horizontal" } } }, 
+			"x": { "submodel": { "chain": { "model": "rustic:chain_horizontal", "y": 90 } } } 
+		}, 
+		"dangle": { 
+			"true": { "submodel": { "dangle": { "model": "rustic:chain_dangle" } } }, "false": {} 
+		}, 
+		"inventory": [] 
+	} 
+}

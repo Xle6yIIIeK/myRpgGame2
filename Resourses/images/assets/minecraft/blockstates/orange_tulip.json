@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+        			{ "model": "plants/tulip_orange" },
+        			{ "model": "plants/tulip_orange", "y": 90   },
+        			{ "model": "plants/tulip_orange", "y": 180  },
+        			{ "model": "plants/tulip_orange", "y": 270  }
+        		]
+    }
+}

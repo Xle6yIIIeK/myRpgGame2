@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+		{ "model": "additionalenderblocks:purpur_cobble" },
+		{ "model": "additionalenderblocks:purpur_cobble_1" },
+		{ "model": "additionalenderblocks:purpur_cobble_2" },
+		{ "model": "additionalenderblocks:purpur_cobble_3" }
+		]
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "forge_marker": 1,
+  "variants": {
+    "active": {
+      "true": {
+			"model": "soulshardstow:cage_2"
+      },
+      "false": {
+			"model": "soulshardstow:cage_1"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "parent": "block/upper_slab",
+
+    "textures": {
+
+        "bottom": "additionalenderblocks:end_stone_smooth1",
+
+        "top": "additionalenderblocks:end_stone_smooth1",
+
+        "side": "additionalenderblocks:end_stone_smooth1"
+
+    }
+}

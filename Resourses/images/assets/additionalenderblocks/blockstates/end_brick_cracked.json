@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "normal": [
+		{ "model": "additionalenderblocks:end_brick_cracked" },
+		{ "model": "additionalenderblocks:end_brick_cracked2" },
+		{ "model": "additionalenderblocks:end_brick_cracked3" }
+		]
+		}
+}

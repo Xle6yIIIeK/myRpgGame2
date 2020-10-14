@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "normal": [ 
+            { "model": "wool/black_1", "weight": 1 },
+            { "model": "wool/black_2", "weight": 1 },
+            { "model": "wool/black_3", "weight": 1 }
+        ]
+    }
+}

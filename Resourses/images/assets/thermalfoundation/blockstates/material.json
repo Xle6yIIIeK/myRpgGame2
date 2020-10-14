@@ -1,0 +1,639 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "builtin/generated",
+		"textures": {
+			"layer0": "blocks/dirt"
+		},
+		"transform": "forge:default-item"
+	},
+	"variants": {
+		"type": {
+			"dustiron": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_iron"
+				}
+			},
+			"dustgold": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_gold"
+				}
+			},
+			"dustcoal": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_coal"
+				}
+			},
+			"dustcharcoal": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_charcoal"
+				}
+			},
+			"dustobsidian": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_obsidian"
+				}
+			},
+			"dustsulfur": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_sulfur"
+				}
+			},
+			"dustniter": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_saltpeter"
+				}
+			},
+			"dustcopper": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_copper"
+				}
+			},
+			"dusttin": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_tin"
+				}
+			},
+			"dustsilver": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_silver"
+				}
+			},
+			"dustlead": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_lead"
+				}
+			},
+			"dustaluminum": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_aluminum"
+				}
+			},
+			"dustnickel": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_nickel"
+				}
+			},
+			"dustplatinum": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_platinum"
+				}
+			},
+			"dustiridium": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/dust_iridium"
+				}
+			},
+			"dustmithril": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_mithril"
+				}
+			},
+			"duststeel": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_steel"
+				}
+			},
+			"dustelectrum": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_electrum"
+				}
+			},
+			"dustinvar": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_invar"
+				}
+			},
+			"dustbronze": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_bronze"
+				}
+			},
+			"dustconstantan": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/dust_constantan"
+				}
+			},
+			"dustsignalum": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_signalum"
+				}
+			},
+			"dustlumium": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_lumium"
+				}
+			},
+			"dustenderium": {
+				"textures": {
+					"layer0": "lithos_mod:items/dust_enderium"
+				}
+			},
+			"ingotcopper": {
+				"textures": {
+					"layer0": "lithos_mod:items/ingot_copper"
+				}
+			},
+			"ingottin": {
+				"textures": {
+					"layer0": "lithos_mod:items/ingot_tin"
+				}
+			},
+			"ingotsilver": {
+				"textures": {
+					"layer0": "lithos_mod:items/ingot_silver"
+				}
+			},
+			"ingotlead": {
+				"textures": {
+					"layer0": "lithos_mod:items/ingot_lead"
+				}
+			},
+			"ingotaluminum": {
+				"textures": {
+					"layer0": "lithos_mod:items/ingot_aluminum"
+				}
+			},
+			"ingotnickel": {
+				"textures": {
+					"layer0": "lithos_mod:items/ingot_nickel"
+				}
+			},
+			"ingotplatinum": {
+				"textures": {
+					"layer0": "lithos_mod:items/ingot_platinum"
+				}
+			},
+			"ingotiridium": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/ingot_iridium"
+				}
+			},
+			"ingotmithril": {
+				"textures": {
+					"layer0": "lithos_mod:items/ingot_mithril"
+				}
+			},
+			"ingotsteel": {
+				"textures": {
+					"layer0": "lithos_mod:items/ingot_steel"
+				}
+			},
+			"ingotelectrum": {
+				"textures": {
+					"layer0": "lithos_mod:items/ingot_electrum"
+				}
+			},
+			"ingotinvar": {
+				"textures": {
+					"layer0": "lithos_mod:items/ingot_invar"
+				}
+			},
+			"ingotbronze": {
+				"textures": {
+					"layer0": "lithos_mod:items/ingot_bronze"
+				}
+			},
+			"ingotconstantan": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/ingot_constantan"
+				}
+			},
+			"ingotsignalum": {
+				"textures": {
+					"layer0": "lithos_mod:items/ingot_signalum"
+				}
+			},
+			"ingotlumium": {
+				"textures": {
+					"layer0": "lithos_mod:items/ingot_lumium"
+				}
+			},
+			"ingotenderium": {
+				"textures": {
+					"layer0": "lithos_mod:items/ingot_enderium"
+				}
+			},
+			"nuggetdiamond": {
+				"textures": {
+					"layer0": "lithos_mod:items/nugget_diamond"
+				}
+			},
+			"nuggetemerald": {
+				"textures": {
+					"layer0": "lithos_mod:items/nugget_emerald"
+				}
+			},
+			"nuggetcopper": {
+				"textures": {
+					"layer0": "lithos_mod:items/nugget_copper"
+				}
+			},
+			"nuggettin": {
+				"textures": {
+					"layer0": "lithos_mod:items/nugget_tin"
+				}
+			},
+			"nuggetsilver": {
+				"textures": {
+					"layer0": "lithos_mod:items/nugget_silver"
+				}
+			},
+			"nuggetlead": {
+				"textures": {
+					"layer0": "lithos_mod:items/nugget_lead"
+				}
+			},
+			"nuggetaluminum": {
+				"textures": {
+					"layer0": "lithos_mod:items/nugget_aluminum"
+				}
+			},
+			"nuggetnickel": {
+				"textures": {
+					"layer0": "lithos_mod:items/nugget_nickel"
+				}
+			},
+			"nuggetplatinum": {
+				"textures": {
+					"layer0": "lithos_mod:items/nugget_platinum"
+				}
+			},
+			"nuggetiridium": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/nugget_iridium"
+				}
+			},
+			"nuggetmithril": {
+				"textures": {
+					"layer0": "lithos_mod:items/nugget_mithril"
+				}
+			},
+			"nuggetsteel": {
+				"textures": {
+					"layer0": "lithos_mod:items/nugget_steel"
+				}
+			},
+			"nuggetelectrum": {
+				"textures": {
+					"layer0": "lithos_mod:items/nugget_electrum"
+				}
+			},
+			"nuggetinvar": {
+				"textures": {
+					"layer0": "lithos_mod:items/nugget_invar"
+				}
+			},
+			"nuggetbronze": {
+				"textures": {
+					"layer0": "lithos_mod:items/nugget_bronze"
+				}
+			},
+			"nuggetconstantan": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/nugget_constantan"
+				}
+			},
+			"nuggetsignalum": {
+				"textures": {
+					"layer0": "lithos_mod:items/nugget_signalum"
+				}
+			},
+			"nuggetlumium": {
+				"textures": {
+					"layer0": "lithos_mod:items/nugget_lumium"
+				}
+			},
+			"nuggetenderium": {
+				"textures": {
+					"layer0": "lithos_mod:items/nugget_enderium"
+				}
+			},
+			"geariron": {
+				"textures": {
+					"layer0": "lithos_mod:items/gear_iron"
+				}
+			},
+			"geargold": {
+				"textures": {
+					"layer0": "lithos_mod:items/gear_gold"
+				}
+			},
+			"gearcopper": {
+				"textures": {
+					"layer0": "lithos_mod:items/gear_copper"
+				}
+			},
+			"geartin": {
+				"textures": {
+					"layer0": "lithos_mod:items/gear_tin"
+				}
+			},
+			"gearsilver": {
+				"textures": {
+					"layer0": "lithos_mod:items/gear_silver"
+				}
+			},
+			"gearlead": {
+				"textures": {
+					"layer0": "lithos_mod:items/gear_lead"
+				}
+			},
+			"gearaluminum": {
+				"textures": {
+					"layer0": "lithos_mod:items/gear_aluminum"
+				}
+			},
+			"gearnickel": {
+				"textures": {
+					"layer0": "lithos_mod:items/gear_nickel"
+				}
+			},
+			"gearplatinum": {
+				"textures": {
+					"layer0": "lithos_mod:items/gear_platinum"
+				}
+			},
+			"geariridium": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/gear_iridium"
+				}
+			},
+			"gearmithril": {
+				"textures": {
+					"layer0": "lithos_mod:items/gear_mithril"
+				}
+			},
+			"gearsteel": {
+				"textures": {
+					"layer0": "lithos_mod:items/gear_steel"
+				}
+			},
+			"gearelectrum": {
+				"textures": {
+					"layer0": "lithos_mod:items/gear_electrum"
+				}
+			},
+			"gearinvar": {
+				"textures": {
+					"layer0": "lithos_mod:items/gear_invar"
+				}
+			},
+			"gearbronze": {
+				"textures": {
+					"layer0": "lithos_mod:items/gear_bronze"
+				}
+			},
+			"gearconstantan": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/gear_constantan"
+				}
+			},
+			"gearsignalum": {
+				"textures": {
+					"layer0": "lithos_mod:items/gear_signalum"
+				}
+			},
+			"gearlumium": {
+				"textures": {
+					"layer0": "lithos_mod:items/gear_lumium"
+				}
+			},
+			"gearenderium": {
+				"textures": {
+					"layer0": "lithos_mod:items/gear_enderium"
+				}
+			},
+			"plateiron": {
+				"textures": {
+					"layer0": "lithos_mod:items/plate_iron"
+				}
+			},
+			"plategold": {
+				"textures": {
+					"layer0": "lithos_mod:items/plate_gold"
+				}
+			},
+			"platecopper": {
+				"textures": {
+					"layer0": "lithos_mod:items/plate_copper"
+				}
+			},
+			"platetin": {
+				"textures": {
+					"layer0": "lithos_mod:items/plate_tin"
+				}
+			},
+			"platesilver": {
+				"textures": {
+					"layer0": "lithos_mod:items/plate_silver"
+				}
+			},
+			"platelead": {
+				"textures": {
+					"layer0": "lithos_mod:items/plate_lead"
+				}
+			},
+			"platealuminum": {
+				"textures": {
+					"layer0": "lithos_mod:items/plate_aluminum"
+				}
+			},
+			"platenickel": {
+				"textures": {
+					"layer0": "lithos_mod:items/plate_nickel"
+				}
+			},
+			"plateplatinum": {
+				"textures": {
+					"layer0": "lithos_mod:items/plate_platinum"
+				}
+			},
+			"plateiridium": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/plate_iridium"
+				}
+			},
+			"platemithril": {
+				"textures": {
+					"layer0": "lithos_mod:items/plate_mithril"
+				}
+			},
+			"platesteel": {
+				"textures": {
+					"layer0": "lithos_mod:items/plate_steel"
+				}
+			},
+			"plateelectrum": {
+				"textures": {
+					"layer0": "lithos_mod:items/plate_electrum"
+				}
+			},
+			"plateinvar": {
+				"textures": {
+					"layer0": "lithos_mod:items/plate_invar"
+				}
+			},
+			"platebronze": {
+				"textures": {
+					"layer0": "lithos_mod:items/plate_bronze"
+				}
+			},
+			"plateconstantan": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/plate_constantan"
+				}
+			},
+			"platesignalum": {
+				"textures": {
+					"layer0": "lithos_mod:items/plate_signalum"
+				}
+			},
+			"platelumium": {
+				"textures": {
+					"layer0": "lithos_mod:items/plate_lumium"
+				}
+			},
+			"plateenderium": {
+				"textures": {
+					"layer0": "lithos_mod:items/plate_enderium"
+				}
+			},
+			"redstoneservo": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/redstone_servo"
+				}
+			},
+			"powercoilgold": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/power_coil_gold"
+				}
+			},
+			"powercoilsilver": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/power_coil_silver"
+				}
+			},
+			"powercoilelectrum": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/power_coil_electrum"
+				}
+			},
+			"dustwood": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/dust_wood"
+				}
+			},
+			"dustwoodcompressed": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/dust_wood_compressed"
+				}
+			},
+			"fuelcoke": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/fuel_coke"
+				}
+			},
+			"globrosin": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/glob_rosin"
+				}
+			},
+			"globtar": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/glob_tar"
+				}
+			},
+			"crystalslag": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/crystal_slag"
+				}
+			},
+			"crystalslagrich": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/crystal_slag_rich"
+				}
+			},
+			"crystalcinnabar": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/crystal_cinnabar"
+				}
+			},
+			"crystalcrudeoil": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/crystal_crude_oil"
+				}
+			},
+			"crystalredstone": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/crystal_redstone"
+				}
+			},
+			"crystalglowstone": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/crystal_glowstone"
+				}
+			},
+			"crystalender": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/crystal_ender"
+				}
+			},
+			"dustpyrotheum": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/dust_pyrotheum"
+				}
+			},
+			"dustcryotheum": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/dust_cryotheum"
+				}
+			},
+			"dustaerotheum": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/dust_aerotheum"
+				}
+			},
+			"dustpetrotheum": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/dust_petrotheum"
+				}
+			},
+			"dustmana": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/dust_mana"
+				}
+			},
+			"rodblizz": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/rod_blizz"
+				}
+			},
+			"dustblizz": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/dust_blizz"
+				}
+			},
+			"rodblitz": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/rod_blitz"
+				}
+			},
+			"dustblitz": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/dust_blitz"
+				}
+			},
+			"rodbasalz": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/rod_basalz"
+				}
+			},
+			"dustbasalz": {
+				"textures": {
+					"layer0": "thermalfoundation:items/material/dust_basalz"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+    "variants": {
+        "type=fiery": [
+            { "model": "nex:block_netherrack_fiery" },
+            { "model": "nex:block_netherrack_fiery_1" },
+            { "model": "nex:block_netherrack_fiery_2" },
+            { "model": "nex:block_netherrack_fiery_3" }
+        ],
+        "type=icy": [
+            { "model": "nex:block_netherrack_icy" },
+            { "model": "nex:block_netherrack_icy_1" },
+			{ "model": "nex:block_netherrack_icy_2" },
+			{ "model": "nex:block_netherrack_icy_3" }
+        ],
+        "type=lively": [
+            { "model": "nex:block_netherrack_lively" },
+            { "model": "nex:block_netherrack_lively_1" },
+            { "model": "nex:block_netherrack_lively_2" },
+            { "model": "nex:block_netherrack_lively_3" }
+        ],
+        "type=gloomy": [
+            { "model": "nex:block_netherrack_gloomy" },
+            { "model": "nex:block_netherrack_gloomy_1" },
+            { "model": "nex:block_netherrack_gloomy_2" },
+            { "model": "nex:block_netherrack_gloomy_3" }
+        ]
+    }
+}

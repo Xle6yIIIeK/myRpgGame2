@@ -1,0 +1,6 @@
+{
+    "parent": "block/plants/crop-carrot",
+    "textures": {
+        "crop": "blocks/carrots_stage_3"
+    }
+}

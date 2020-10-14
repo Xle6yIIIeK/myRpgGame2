@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+        			{ "model": "plants/tulip_white" },
+        			{ "model": "plants/tulip_white", "y": 90   },
+        			{ "model": "plants/tulip_white", "y": 180  },
+        			{ "model": "plants/tulip_white", "y": 270  }
+        		]
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "variants": {
+        "variant=shortgrass": { "model": "biomesoplenty:shortgrass" },
+        "variant=mediumgrass": { "model": "biomesoplenty:mediumgrass" },
+        "variant=bush": { "model": "biomesoplenty:bush" },
+        "variant=sprout": { "model": "biomesoplenty:sprout" },
+        "variant=poisonivy": { "model": "biomesoplenty:poisonivy" },
+        "variant=berrybush": { "model": "biomesoplenty:berrybush" },
+        "variant=shrub": { "model": "biomesoplenty:shrub" },
+        "variant=wheatgrass": { "model": "biomesoplenty:wheatgrass" },
+        "variant=dampgrass": { "model": "biomesoplenty:dampgrass" },
+        "variant=koru": { "model": "biomesoplenty:koru" },
+        
+        "variant=cloverpatch": [
+            { "model": "biomesoplenty:cloverpatch" },
+            { "model": "biomesoplenty:cloverpatch", "y": 90 },
+            { "model": "biomesoplenty:cloverpatch", "y": 180 },
+            { "model": "biomesoplenty:cloverpatch", "y": 270 },
+			{ "model": "biomesoplenty:cloverpatch1" },
+            { "model": "biomesoplenty:cloverpatch1", "y": 90 },
+            { "model": "biomesoplenty:cloverpatch1", "y": 180 },
+            { "model": "biomesoplenty:cloverpatch1", "y": 270 },
+			{ "model": "biomesoplenty:cloverpatch2" },
+            { "model": "biomesoplenty:cloverpatch2", "y": 90 },
+            { "model": "biomesoplenty:cloverpatch2", "y": 180 },
+            { "model": "biomesoplenty:cloverpatch2", "y": 270 },
+			{ "model": "biomesoplenty:cloverpatch3" },
+            { "model": "biomesoplenty:cloverpatch3", "y": 90 },
+            { "model": "biomesoplenty:cloverpatch3", "y": 180 },
+            { "model": "biomesoplenty:cloverpatch3", "y": 270 },
+			{ "model": "biomesoplenty:cloverpatch4" },
+            { "model": "biomesoplenty:cloverpatch4", "y": 90 },
+            { "model": "biomesoplenty:cloverpatch4", "y": 180 },
+            { "model": "biomesoplenty:cloverpatch4", "y": 270 },
+			{ "model": "biomesoplenty:cloverpatch5" },
+            { "model": "biomesoplenty:cloverpatch5", "y": 90 },
+            { "model": "biomesoplenty:cloverpatch5", "y": 180 },
+            { "model": "biomesoplenty:cloverpatch5", "y": 270 },
+			{ "model": "biomesoplenty:cloverpatch6" },
+            { "model": "biomesoplenty:cloverpatch6", "y": 90 },
+            { "model": "biomesoplenty:cloverpatch6", "y": 180 },
+            { "model": "biomesoplenty:cloverpatch6", "y": 270 },
+			{ "model": "biomesoplenty:cloverpatch7" },
+            { "model": "biomesoplenty:cloverpatch7", "y": 90 },
+            { "model": "biomesoplenty:cloverpatch7", "y": 180 },
+            { "model": "biomesoplenty:cloverpatch7", "y": 270 },
+			{ "model": "biomesoplenty:cloverpatch8" },
+            { "model": "biomesoplenty:cloverpatch8", "y": 90 },
+            { "model": "biomesoplenty:cloverpatch8", "y": 180 },
+            { "model": "biomesoplenty:cloverpatch8", "y": 270 },
+			{ "model": "biomesoplenty:cloverpatch9" },
+            { "model": "biomesoplenty:cloverpatch9", "y": 90 },
+            { "model": "biomesoplenty:cloverpatch9", "y": 180 },
+            { "model": "biomesoplenty:cloverpatch9", "y": 270 },
+			{ "model": "biomesoplenty:cloverpatch10" },
+            { "model": "biomesoplenty:cloverpatch10", "y": 90 },
+            { "model": "biomesoplenty:cloverpatch10", "y": 180 },
+            { "model": "biomesoplenty:cloverpatch10", "y": 270 },
+			{ "model": "biomesoplenty:cloverpatch11" },
+            { "model": "biomesoplenty:cloverpatch11", "y": 90 },
+            { "model": "biomesoplenty:cloverpatch11", "y": 180 },
+            { "model": "biomesoplenty:cloverpatch11", "y": 270 },
+			{ "model": "biomesoplenty:cloverpatch12" },
+			{ "model": "biomesoplenty:cloverpatch12", "y": 90 },
+            { "model": "biomesoplenty:cloverpatch12", "y": 180 },
+            { "model": "biomesoplenty:cloverpatch12", "y": 270 }
+			
+        	],
+
+        	
+        "variant=leafpile": [
+            { "model": "biomesoplenty:leafpile" },
+            { "model": "biomesoplenty:leafpile", "y": 90 },
+            { "model": "biomesoplenty:leafpile", "y": 180 },
+            { "model": "biomesoplenty:leafpile", "y": 270 }
+        	],
+
+        "variant=deadleafpile": [
+            { "model": "biomesoplenty:deadleafpile" },
+            { "model": "biomesoplenty:deadleafpile", "y": 90 },
+            { "model": "biomesoplenty:deadleafpile", "y": 180 },
+            { "model": "biomesoplenty:deadleafpile", "y": 270 }
+        	],
+
+        "variant=deadgrass": { "model": "biomesoplenty:deadgrass" },
+        "variant=desertgrass": { "model": "biomesoplenty:desertgrass" },
+        "variant=desertsprouts": { "model": "biomesoplenty:desertsprouts" }
+    }
+}

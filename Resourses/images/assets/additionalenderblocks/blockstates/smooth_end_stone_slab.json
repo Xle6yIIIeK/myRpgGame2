@@ -1,0 +1,16 @@
+{
+    "variants": {
+
+        "half=bottom,variant=default": [
+        	{ "model": "additionalenderblocks:half_slab_smooth_end_stone" },
+        	{ "model": "additionalenderblocks:half_slab_smooth_end_stone_1" },
+        	{ "model": "additionalenderblocks:half_slab_smooth_end_stone_2" }
+        	],
+
+        "half=top,variant=default": [
+        	{ "model": "additionalenderblocks:upper_slab_smooth_end_stone" },
+        	{ "model": "additionalenderblocks:upper_slab_smooth_end_stone_1" },
+        	{ "model": "additionalenderblocks:upper_slab_smooth_end_stone_2" }
+        	]
+    }
+}

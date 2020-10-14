@@ -1,0 +1,143 @@
+{
+    "parent": "block/block",
+    "textures": {
+        "particle": "appliedenergistics2:blocks/molecular_assembler",
+        "outside": "appliedenergistics2:blocks/molecular_assembler"
+    },
+	"elements": [
+		{
+			"name": "Shell",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#outside", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#outside", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#outside", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#outside", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#outside", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#outside", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Beam Bottom North",
+			"from": [1.5, 0, 0],
+			"to": [14.5, 1.5, 1.5],
+			"shade": false,
+			"faces": {
+				"south": {"uv": [1.5, 16, 14.5, 14.5], "texture": "#outside"},
+				"up": {"uv": [1.5, 1.5, 14.5, 0], "texture": "#outside"}
+			}
+		},
+		{
+			"name": "Beam Bottom South",
+			"from": [1.5, 0, 14.5],
+			"to": [14.5, 1.5, 16],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [1.5, 16, 14.5, 14.5], "texture": "#outside"},
+				"up": {"uv": [1.5, 16, 14.5, 14.5], "texture": "#outside"}
+			}
+		},
+		{
+			"name": "Beam Top North",
+			"from": [1.5, 14.5, 0],
+			"to": [14.5, 16, 1.5],
+			"shade": false,
+			"faces": {
+				"south": {"uv": [1.5, 1.5, 14.5, 0], "texture": "#outside"},
+				"down": {"uv": [1.5, 16, 14.5, 14.5], "texture": "#outside"}
+			}
+		},
+		{
+			"name": "Beam Top South",
+			"from": [1.5, 14.5, 14.5],
+			"to": [14.5, 16, 16],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [1.5, 1.5, 14.5, 0], "texture": "#outside"},
+				"down": {"uv": [1.5, 1.5, 14.5, 0], "texture": "#outside"}
+			}
+		},
+		{
+			"name": "Beam Bottom West",
+			"from": [0, 0, 1.5],
+			"to": [1.5, 1.5, 14.5],
+			"shade": false,
+			"faces": {
+				"east": {"uv": [14.5, 16, 1.5, 14.5], "texture": "#outside"},
+				"up": {"uv": [1.5, 14.5, 0, 1.5], "texture": "#outside"}
+			}
+		},
+		{
+			"name": "Beam Bottom East",
+			"from": [14.5, 0, 1.5],
+			"to": [16, 1.5, 14.5],
+			"shade": false,
+			"faces": {
+				"west": {"uv": [14.5, 16, 1.5, 14.5], "texture": "#outside"},
+				"up": {"uv": [16, 14.5, 14.5, 1.5], "texture": "#outside"}
+			}
+		},
+		{
+			"name": "Beam Top West",
+			"from": [0, 14.5, 1.5],
+			"to": [1.5, 16, 14.5],
+			"shade": false,
+			"faces": {
+				"east": {"uv": [14.5, 1.5, 1.5, 0], "texture": "#outside"},
+				"down": {"uv": [1.5, 14.5, 0, 1.5], "texture": "#outside"}
+			}
+		},
+		{
+			"name": "Beam Top East",
+			"from": [14.5, 14.5, 1.5],
+			"to": [16, 16, 14.5],
+			"shade": false,
+			"faces": {
+				"west": {"uv": [14.5, 1.5, 1.5, 0], "texture": "#outside"},
+				"down": {"uv": [16, 14.5, 14.5, 1.5], "texture": "#outside"}
+			}
+		},
+		{
+			"name": "Strut North West",
+			"from": [0, 1.5, 0],
+			"to": [1.5, 14.5, 1.5],
+			"shade": false,
+			"faces": {
+				"east": {"uv": [16, 1.5, 14.5, 14.5], "texture": "#outside"},
+				"south": {"uv": [1.5, 1.5, 0, 14.5], "texture": "#outside"}
+			}
+		},
+		{
+			"name": "Strut South West",
+			"from": [0, 1.5, 14.5],
+			"to": [1.5, 14.5, 16],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [16, 1.5, 14.5, 14.5], "texture": "#outside"},
+				"east": {"uv": [1.5, 1.5, 0, 14.5], "texture": "#outside"}
+			}
+		},
+		{
+			"name": "Strut North East",
+			"from": [14.5, 1.5, 0],
+			"to": [16, 14.5, 1.5],
+			"shade": false,
+			"faces": {
+				"south": {"uv": [16, 1.5, 14.5, 14.5], "texture": "#outside"},
+				"west": {"uv": [1.5, 1.5, 0, 14.5], "texture": "#outside"}
+			}
+		},
+		{
+			"name": "Strut South East",
+			"from": [14.5, 1.5, 14.5],
+			"to": [16, 14.5, 16],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [1.5, 1.5, 0, 14.5], "texture": "#outside"},
+				"west": {"uv": [16, 1.5, 14.5, 14.5], "texture": "#outside"}
+			}
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "variant=lavender": 
+			[
+				{ "model": "biomesoplenty:lavender" }, 
+				{ "model": "biomesoplenty:lavender1" }, 
+				{ "model": "biomesoplenty:lavender2" }, 
+				{ "model": "biomesoplenty:lavender3" }
+			],
+        "variant=goldenrod": { "model": "biomesoplenty:goldenrod" },
+        "variant=bluebells": { "model": "biomesoplenty:bluebells" },
+        "variant=miners_delight": { "model": "biomesoplenty:miners_delight" },
+        "variant=icy_iris": { "model": "biomesoplenty:icy_iris" },
+        "variant=rose": { "model": "biomesoplenty:rose" }
+    }
+}

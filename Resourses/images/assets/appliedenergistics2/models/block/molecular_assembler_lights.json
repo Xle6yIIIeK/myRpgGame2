@@ -1,0 +1,21 @@
+{
+    "ae2_uvl_marker": true,
+    "parent": "block/block",
+    "textures": {
+        "all": "appliedenergistics2:blocks/molecular_assembler_lights"
+	},
+	"elements": [
+		{
+			"from": [1.5, 1.5, 1.5],
+			"to": [14.5, 14.5, 14.5],
+			"faces": {
+				"north": {"uv": [1, 1, 15, 15], "texture": "#all"},
+				"east": {"uv": [1, 1, 15, 15], "texture": "#all"},
+				"south": {"uv": [1, 1, 15, 15], "texture": "#all"},
+				"west": {"uv": [1, 1, 15, 15], "texture": "#all"},
+				"up": {"uv": [1, 1, 15, 15], "texture": "#all"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#all"}
+			}
+		}
+	]
+}

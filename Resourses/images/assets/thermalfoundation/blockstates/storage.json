@@ -1,0 +1,56 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube_all",
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"type": {
+			"copper": {
+				"textures": {
+					"all": "lithos_mod:blocks/block_copper"
+				}
+			},
+			"tin": {
+				"textures": {
+					"all": "lithos_mod:blocks/block_tin"
+				}
+			},
+			"silver": {
+				"textures": {
+					"all": "lithos_mod:blocks/block_silver"
+				}
+			},
+			"lead": {
+				"textures": {
+					"all": "lithos_mod:blocks/block_lead"
+				}
+			},
+			"aluminum": {
+				"textures": {
+					"all": "lithos_mod:blocks/block_aluminum"
+				}
+			},
+			"nickel": {
+				"textures": {
+					"all": "lithos_mod:blocks/block_nickel"
+				}
+			},
+			"platinum": {
+				"textures": {
+					"all": "lithos_mod:blocks/block_platinum"
+				}
+			},
+			"iridium": {
+				"textures": {
+					"all": "thermalfoundation:blocks/storage/block_iridium"
+				}
+			},
+			"mithril": {
+				"textures": {
+					"all": "lithos_mod:blocks/block_mithril"
+				}
+			}
+		}
+	}
+}
